@@ -29,7 +29,7 @@ const getStyles = (variant: "primary" | "secondary" | "tertiary") =>
         variant === "primary"
           ? "#2563eb"
           : variant === "secondary"
-            ? "#f3f4f6"
+            ? "#dc2626"
             : "transparent",
       padding: 12,
       width: "auto",
@@ -39,7 +39,7 @@ const getStyles = (variant: "primary" | "secondary" | "tertiary") =>
         variant === "primary"
           ? "#fff"
           : variant === "secondary"
-            ? "#1f2937"
+            ? "#fff"
             : "#4b5563",
       textAlign: "center",
     },
